@@ -1,0 +1,175 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the container */
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    width: 100%;
+    max-width: 600px; /* Set a max width for the form */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form Elements (inputs, labels) */
+  dl {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  dt {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  dd {
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message Styling */
+  .text-danger {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  
+  /* For Tablets and Larger Screens */
+  @media (max-width: 1024px) {
+    h2 {
+      font-size: 22px;
+    }
+    input[type="text"] {
+      font-size: 15px;
+    }
+    button {
+      font-size: 14px;
+    }
+  }
+  
+  /* For Mobile Phones (Portrait and Landscape) */
+  @media (max-width: 768px) {
+    .container-fluid {
+      padding: 10px;
+    }
+  
+    form {
+      width: 100%;
+      max-width: 90%; /* Form takes up most of the screen width */
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    /* Adjust the input fields to make them larger and easier to touch */
+    input[type="text"] {
+      padding: 14px; /* Add extra padding for better touch experience */
+      font-size: 15px; /* Increase font size for easier reading */
+    }
+  
+    button {
+      padding: 14px;
+      font-size: 15px;
+    }
+  }
+  
+  /* For Very Small Mobile Screens (Portrait) */
+  @media (max-width: 480px) {
+    .container-fluid {
+      padding: 5px;
+    }
+  
+    form {
+      width: 100%;
+      max-width: 95%; /* Allow form to take almost the entire width */
+      padding: 15px; /* Adjust padding for very small devices */
+    }
+  
+    h2 {
+      font-size: 18px; /* Smaller heading size */
+    }
+  
+    input[type="text"] {
+      font-size: 14px; /* Adjust input text size for better fit */
+      padding: 14px; /* Larger input fields for easy touch */
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 12px; /* Make button touch-friendly */
+    }
+  
+    .text-danger {
+      font-size: 13px; /* Adjust error text size */
+    }
+  }
+  
+  
+  
