@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+**HookFormDemo - React Form with React Hook Form**
+This project is a simple demo of a React form built using React Hook Form. It allows users to register with their User Name and Mobile Number. The form validates user input and provides error messages when invalid data is entered. Additionally, the form is fully responsive, designed to work seamlessly across desktops, tablets, and mobile devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Features**
+🎈User Name and Mobile Number fields with validation.
+🎈Responsive Design that adjusts for various screen sizes.
+🎈Error Handling for invalid form inputs with custom error messages.
+🎈Navbar Component to demonstrate layout flexibility.
+🎈Uses React Hook Form for form handling and validation.
 
-## Available Scripts
+**Technologies Used**
+**React**: Frontend library for building the user interface.
+**React Hook Form**: A library for managing form state and validation in React.
+**CSS**: Custom styles for layout, responsiveness, and user experience.
 
-In the project directory, you can run:
+**Installation**
+1.Steps to Set Up:
+  1.Clone the repository to your local machine:
+  ![Screenshot 2025-03-07 125032](https://github.com/user-attachments/assets/65af2e66-80bb-472e-88bb-62e48013b993)
 
-### `npm start`
+  2.Navigate into the project directory:
+  ![Screenshot 2025-03-07 125312](https://github.com/user-attachments/assets/6c1e44e9-86b6-4619-a160-51eb63755d27)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  3.Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ![Screenshot 2025-03-07 125419](https://github.com/user-attachments/assets/dd96bebf-fb99-4c86-a263-0602745fc0b6)
 
-### `npm test`
+  4.Start the development server:
+  ![Screenshot 2025-03-07 125443](https://github.com/user-attachments/assets/2a9d681b-48c1-463c-8046-e117e3ef4ae0)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will start the development server, and you should be able to view the form in your browser at http://localhost:3000.
 
-### `npm run build`
+**Usage**
+When the page loads, you'll see the Register User form.
++ User Name:
+  +The user must enter a name with at least 4 characters.
++ Mobile Number:
+  +The user must enter a mobile number in the +91XXXXXXXXXX format (Indian mobile number).
++ The form will show error messages if:
+  +The User Name is required and must be at least 4 characters.
+  +The Mobile Number is required and must match the valid format.
++ Upon successful form submission, the form data will be logged in the console.
+**Navbar**
+The project includes a simple Navbar component that can be reused with different styles and menu items. It supports different themes and button styles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Mobile and Tablet Responsiveness**
++ The form and layout are fully responsive:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  + On mobile devices, the form takes up almost the entire screen width and adapts for easy touch interactions.
+  + On tablets, the form is slightly more compact but still user-friendly.
+  + On larger screens (desktop), the form has a maximum width of 600px for an optimal user experience.
+  File Structure
+  + The basic file structure of the project is as follows:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ **File Structure**
+  The basic file structure of the project is as follows:
+  ![Screenshot 2025-03-07 130124](https://github.com/user-attachments/assets/56453ccb-aec6-4287-a389-0565fe2f24e2)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Contributing**
+  + Fork the repository.
+  + Clone your fork to your local machine.
+  + Cr eate a new branch (git checkout -b feature-name).
+  + Make your changes and commit them (git commit -am 'Add feature').
+  + Push your branch to GitHub (git push origin feature-name).
+  + Open a Pull Request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+IMAGES:
+![Screenshot 2025-03-07 130414](https://github.com/user-attachments/assets/d8db3586-4bfd-4866-b406-27446223281f)
+mobile:view 
+![Screenshot 2025-03-07 130508](https://github.com/user-attachments/assets/15b6a34e-cde7-4d88-80cd-bd527c5e887f)
