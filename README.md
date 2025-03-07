@@ -24,9 +24,11 @@ This project is a simple demo of a React form built using React Hook Form. It al
   3.Install dependencies:
 
   ![Screenshot 2025-03-07 125419](https://github.com/user-attachments/assets/dd96bebf-fb99-4c86-a263-0602745fc0b6)
+  
 
   4.Start the development server:
   ![Screenshot 2025-03-07 125443](https://github.com/user-attachments/assets/2a9d681b-48c1-463c-8046-e117e3ef4ae0)
+  
 
 This will start the development server, and you should be able to view the form in your browser at http://localhost:3000.
 
@@ -40,7 +42,9 @@ When the page loads, you'll see the Register User form.
   +The User Name is required and must be at least 4 characters.
   +The Mobile Number is required and must match the valid format.
 + Upon successful form submission, the form data will be logged in the console.
++ 
 **Navbar**
+  
 The project includes a simple Navbar component that can be reused with different styles and menu items. It supports different themes and button styles.
 
 **Mobile and Tablet Responsiveness**
@@ -54,6 +58,7 @@ The project includes a simple Navbar component that can be reused with different
 
  **File Structure**
   The basic file structure of the project is as follows:
+  
   ![Screenshot 2025-03-07 130124](https://github.com/user-attachments/assets/56453ccb-aec6-4287-a389-0565fe2f24e2)
 
 **Contributing**
@@ -63,9 +68,24 @@ The project includes a simple Navbar component that can be reused with different
   + Make your changes and commit them (git commit -am 'Add feature').
   + Push your branch to GitHub (git push origin feature-name).
   + Open a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-IMAGES:
+    
++ License
+  + This project is licensed under the MIT License - see the LICENSE file for details.
+    
+**IMAGES:**
+
 ![Screenshot 2025-03-07 130414](https://github.com/user-attachments/assets/d8db3586-4bfd-4866-b406-27446223281f)
+
 mobile:view 
+
 ![Screenshot 2025-03-07 130508](https://github.com/user-attachments/assets/15b6a34e-cde7-4d88-80cd-bd527c5e887f)
+
+# My Project
+
+Check out this demo video:
+
+[Click here to watch the demo video](https://github.com/user-attachments/assets/576bf29f-428a-4b45-b9a2-70abb2155156)
+
+
+
+
